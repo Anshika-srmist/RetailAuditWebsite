@@ -426,14 +426,12 @@ const RetailAuditWebsite = () => {
                 </div>
               </div>
 
-              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Zone-wise Team Leads</h3>
+              {/* Zone-wise Teams – names removed, zones + team size kept */}
+              <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Zone-wise Teams</h3>
               <div className="grid md:grid-cols-2 gap-6">
                 {zones.map((zone, index) => (
                   <div key={index} className="bg-white rounded-lg p-6 shadow-md border-l-4 border-blue-600">
                     <h4 className="text-xl font-bold text-blue-600 mb-3">{zone.name}</h4>
-                    <p className="text-slate-700 mb-2">
-                      <span className="font-semibold">Lead:</span> {zone.leads || zone.lead}
-                    </p>
                     <p className="text-slate-700">
                       <span className="font-semibold">Team Size:</span> {zone.team} members
                     </p>
@@ -515,11 +513,29 @@ const RetailAuditWebsite = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Follow Us</h3>
               <div className="flex space-x-4">
-                <Facebook className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
-                <Linkedin className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                <a
+                  href="https://www.facebook.com/share/1H3oZLyv3H/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Facebook className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/the-retail-audit-and-allied-services-a156461b9"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                </a>
                 <Twitter className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
                 <Youtube className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
-                <Instagram className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                <a
+                  href="https://www.instagram.com/traasaudit/?utm_source=qr&igsh=Z3UxMzM0Mmw1N3dw#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Instagram className="w-6 h-6 hover:text-blue-400 cursor-pointer transition-colors" />
+                </a>
               </div>
             </div>
           </div>
@@ -536,4 +552,3 @@ const RetailAuditWebsite = () => {
 };
 
 export default RetailAuditWebsite;
-
