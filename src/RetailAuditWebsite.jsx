@@ -29,7 +29,7 @@ const RetailAuditWebsite = () => {
 
   const services = [
     {
-      title: "Retail Store Audits",
+      title: "Store Audits",
       description: "Comprehensive checks on stock accuracy, merchandising compliance, planogram adherence, and operational standards to ensure your stores meet brand expectations",
       icon: <BarChart3 className="w-8 h-8" />
     },
@@ -53,10 +53,10 @@ const RetailAuditWebsite = () => {
   ];
 
   const zones = [
-    { name: "East Zone", lead: "Atul Pandey", team: 4 },
-    { name: "West Zone", lead: "Sagar", team: 6 },
-    { name: "North Zone", leads: "Ankit (NCR), Pankaj (Punjab, Haryana & Rajasthan), Rohit (UP, UK & Central India)", team: 3 },
-    { name: "South Zone", lead: "Ravikumar", team: 9 }
+    { name: "East Zone", team: 14 },
+    { name: "West Zone", team: 12 },
+    { name: "North Zone", team: 11 },
+    { name: "South Zone", team: 15 }
   ];
 
   return (
@@ -80,7 +80,7 @@ const RetailAuditWebsite = () => {
         <div className="max-w-7xl mx-auto flex justify-end items-center space-x-6 text-sm">
           <a href="tel:+919810049179" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
             <Phone className="w-4 h-4" />
-            Toll-Free: +91 9810049179
+            Contact No : +91 9810049179
           </a>
           <a href="mailto:contact@retailsaudit.com" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
             <Mail className="w-4 h-4" />
@@ -283,7 +283,6 @@ const RetailAuditWebsite = () => {
                   ))}
                 </div>
               </div>
-
               {/* Why Choose Us */}
               <div className="mb-16">
                 <h3 className="text-3xl font-bold text-center text-slate-800 mb-8">Why Choose Us?</h3>
@@ -326,6 +325,18 @@ const RetailAuditWebsite = () => {
                   </p>
                 </div>
               </div>
+              <div className="bg-white rounded-lg p-8 shadow-lg border-l-4 border-orange-600 mb-4">
+  <h3 className="text-2xl font-bold text-orange-600 mb-4">
+    Our Geographic Reach
+  </h3>
+  <p className="text-slate-700 leading-relaxed">
+    We operate on a <strong>PAN India basis</strong>, delivering retail and warehouse
+    audit services across all major regions of the country. Our operational presence
+    extends across <strong>India and the GCC region</strong>, enabling us to support
+    both domestic and international audit requirements seamlessly.
+  </p>
+</div>
+
 
               <div className="grid md:grid-cols-3 gap-6 mb-12">
                 <div className="bg-white rounded-lg p-6 shadow-md text-center">
@@ -376,6 +387,22 @@ const RetailAuditWebsite = () => {
                   </div>
                 ))}
               </div>
+              <div className="bg-white rounded-lg p-8 shadow-lg border-l-4 border-blue-600 mb-12">
+  <h3 className="text-2xl font-bold text-blue-600 mb-4">
+   Our Clients & Compliance Standards
+  </h3>
+  <p className="text-slate-700 leading-relaxed">
+    We work with a diverse portfolio of clients across India as well as international
+    markets, supporting multi-location retailers, warehouses, and supply chains with
+    consistent audit standards.
+  </p>
+  <p className="text-slate-700 leading-relaxed">
+    We strictly adhere to data privacy and confidentiality norms. All client information,
+    audit data, and reports are handled with the highest level of integrity, security,
+    and ethical responsibility in line with industry best practices.
+  </p>
+</div>
+
 
               <div className="bg-white rounded-lg p-8 shadow-lg">
                 <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Our Audit Methodology</h3>
@@ -503,7 +530,7 @@ const RetailAuditWebsite = () => {
             <div>
               <h3 className="text-xl font-bold mb-4">Our Solutions</h3>
               <ul className="space-y-2 text-sm text-blue-200">
-                <li>Retail Store Audits</li>
+                <li>Store Audits</li>
                 <li>Warehouse Inventory Audits</li>
                 <li>Process & Compliance Audits</li>
                 <li>Mystery Shopping</li>
