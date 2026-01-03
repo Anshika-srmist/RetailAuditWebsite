@@ -99,7 +99,7 @@ const RetailAuditWebsite = () => {
                 <img 
                   src="/logo.png"
                   alt="TRAAS Logo" 
-                  className="w-12 h-10 object-contain"
+                  className="w-20 h-12 object-contain"
                 />
                 <div>
                   <div className="text-slate-800 font-bold text-lg whitespace-nowrap leading-tight">
@@ -215,21 +215,21 @@ const RetailAuditWebsite = () => {
                   <img 
                     src="/logo.png"
                     alt="TRAAS Logo" 
-                    className="w-48 h-40 object-contain drop-shadow-2xl"
+                    className="w-57 h-40 object-contain drop-shadow-2xl"
                   />
                 </div>
 
                 {/* Company Name */}
-                <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+                <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
                   The Retail Audit & Allied Services
                 </h1>
                 
                 {/* Motto/Tagline */}
                 <div className="h-1 w-32 bg-orange-400 mx-auto mb-6"></div>
-                <p className="text-3xl md:text-4xl text-orange-300 mb-8 font-light">
+                <p className="text-3xl md:text-3xl text-orange-300 mb-8 font-light">
                   Ensuring Accuracy, Enhancing Efficiency
                 </p>
-                <p className="text-xl md:text-2xl text-blue-200 mb-12 font-light max-w-3xl mx-auto">
+                <p className="text-xl md:text-1xl text-blue-200 mb-12 font-light max-w-3xl mx-auto">
                   Your Trusted Partner in Retail & Warehouse Inventory Audits
                 </p>
 
@@ -254,12 +254,6 @@ const RetailAuditWebsite = () => {
                     Learn More About Us
                   </button>
                 </div>
-              </div>
-
-              {/* Scroll Indicator */}
-              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white animate-bounce">
-                <div className="text-sm mb-2">Discover More</div>
-                <ChevronRight className="w-6 h-6 rotate-90 mx-auto" />
               </div>
             </div>
           </div>
