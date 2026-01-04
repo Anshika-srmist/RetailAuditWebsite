@@ -29,7 +29,7 @@ const RetailAuditWebsite = () => {
 
   const services = [
     {
-      title: "Store Audits",
+      title: "Stores Audit",
       description: "Comprehensive checks on stock accuracy, merchandising compliance, planogram adherence, and operational standards to ensure your stores meet brand expectations",
       icon: <BarChart3 className="w-8 h-8" />
     },
@@ -48,7 +48,7 @@ const RetailAuditWebsite = () => {
   const stats = [
     { value: "98%", label: "Inventory Accuracy" },
     { value: "35%", label: "Discrepancy Reduction" },
-    { value: "$500K", label: "Annual Recovery" },
+    { value: "₹52M", label: "Annual Recovery" },
     { value: "0", label: "Regulatory Penalties" }
   ];
 
@@ -99,11 +99,11 @@ const RetailAuditWebsite = () => {
                 <img 
                   src="/logo.png"
                   alt="TRAAS Logo" 
-                  className="w-20 h-12 object-contain"
+                  className="w-30 h-20 object-contain"
                 />
                 <div>
                   <div className="text-slate-800 font-bold text-lg whitespace-nowrap leading-tight">
-                    The Retail Audit & Allied Services
+                    RetailS Audit
                   </div>
                 </div>
               </div>
@@ -230,7 +230,7 @@ const RetailAuditWebsite = () => {
                   Ensuring Accuracy, Enhancing Efficiency
                 </p>
                 <p className="text-xl md:text-1xl text-blue-200 mb-12 font-light max-w-3xl mx-auto">
-                  Your Trusted Partner in Retail & Warehouse Inventory Audits
+                  Your Inventory, Our Integrity
                 </p>
 
                 {/* CTA Buttons */}
@@ -308,7 +308,7 @@ const RetailAuditWebsite = () => {
                 <div className="bg-white rounded-lg p-8 shadow-lg border-l-4 border-orange-600">
                   <h3 className="text-2xl font-bold text-orange-600 mb-4">Our Mission</h3>
                   <p className="text-slate-700 leading-relaxed">
-                    Deliver precise, reliable retail and warehouse audits that empower businesses to optimize inventory and operations. We combine cutting-edge technology with deep industry expertise to provide actionable insights that drive measurable results.
+                    Deliver precise, reliable stores and warehouse audits that empower businesses to optimize inventory and operations. We combine cutting-edge technology with deep industry expertise to provide actionable insights that drive measurable results.
                   </p>
                 </div>
                 
@@ -324,7 +324,7 @@ const RetailAuditWebsite = () => {
     Our Geographic Reach
   </h3>
   <p className="text-slate-700 leading-relaxed">
-    We operate on a <strong>PAN India basis</strong>, delivering retail and warehouse
+    We operate on a <strong>PAN India basis</strong>, delivering stores and warehouse
     audit services across all major regions of the country. Our operational presence
     extends across <strong>India and the GCC region</strong>, enabling us to support
     both domestic and international audit requirements seamlessly.
@@ -336,7 +336,7 @@ const RetailAuditWebsite = () => {
                 <div className="bg-white rounded-lg p-6 shadow-md text-center">
                   <Shield className="w-12 h-12 text-orange-600 mx-auto mb-4" />
                   <h4 className="text-xl font-bold text-slate-800 mb-2">Specialized Focus</h4>
-                  <p className="text-slate-600">Dedicated exclusively to retail stores and warehouse inventory audits</p>
+                  <p className="text-slate-600">Dedicated exclusively to stores and warehouse inventory audits</p>
                 </div>
                 
                 <div className="bg-white rounded-lg p-6 shadow-md text-center">
@@ -355,7 +355,7 @@ const RetailAuditWebsite = () => {
               <div className="bg-orange-50 rounded-lg p-8 border-2 border-orange-200">
                 <h3 className="text-2xl font-bold text-slate-800 mb-6 text-center">Industries We Serve</h3>
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-                  {["Retail Chains", "FMCG", "Consumer Electronics", "Fashion & Apparel", "Warehousing & Logistics"].map((industry, index) => (
+                  {["Retail Chains", "FMCG", "Pharma", "Footware", "Consumer Electronics", "Fashion & Apparel", "Warehousing & Logistics"].map((industry, index) => (
                     <div key={index} className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow">
                       <p className="text-slate-700 font-semibold">{industry}</p>
                     </div>
@@ -437,7 +437,7 @@ const RetailAuditWebsite = () => {
                 <div className="bg-white rounded-lg p-6 shadow-md text-center">
                   <CheckCircle className="w-12 h-12 text-blue-600 mx-auto mb-4" />
                   <h4 className="text-lg font-bold text-slate-800 mb-2">Dedicated Client Managers</h4>
-                  <p className="text-slate-600">Personalized service ensuring consistent communication and comprehensive follow-up</p>
+                  <p className="text-slate-600">Personalized service ensuring consistent communication, comprehensive follow-up</p>
                 </div>
                 
                 <div className="bg-white rounded-lg p-6 shadow-md text-center">
