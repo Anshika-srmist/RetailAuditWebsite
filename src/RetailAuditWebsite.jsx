@@ -115,8 +115,24 @@ const RetailAuditWebsite = () => {
       <nav style={{ background: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.1)', flexShrink: 0, zIndex: 50, position: 'relative' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: 72 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-            <div style={{ fontWeight: 700, fontSize: 18, color: '#1e293b' }}>RetailS Audit</div>
-          </div>
+  <img
+    src="/logo.png"
+    alt="RetailS Audit Logo"
+    style={{
+      height: '50px',
+      width: 'auto'
+    }}
+  />
+  <div
+    style={{
+      fontWeight: 700,
+      fontSize: 18,
+      color: '#1e293b'
+    }}
+  >
+    RetailS Audit
+  </div>
+</div>
           <div style={{ display: 'flex', gap: 8 }}>
             {[['home','Home'],['about','About Us'],['services','Services'],['team','Our Team'],['contact','Contact Us']].map(([sec, label]) => (
               <button key={sec} onClick={() => navigateTo(sec)}
@@ -124,7 +140,7 @@ const RetailAuditWebsite = () => {
                 {label}
               </button>
             ))}
-          </div>
+          </div>n
         </div>
       </nav>
 
