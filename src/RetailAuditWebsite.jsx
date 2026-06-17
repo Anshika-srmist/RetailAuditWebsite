@@ -140,7 +140,7 @@ const RetailAuditWebsite = () => {
                 {label}
               </button>
             ))}
-          </div>n
+          </div>
         </div>
       </nav>
 
